@@ -1,0 +1,134 @@
+/* =========================================
+
+Theme Name: Blue App 
+Theme URI: http://mishk.at/
+Author: S M Mishkatul Islam
+Author URI: http://mishk.at/
+Description: One page Responsive HTML5 parallax business landing page
+Version: 1.0.0
+Tags: html5, themplate, landing page, app landing page
+
+========================================= */
+
+
+
+/* =========================================
+/* 1 - Google Font
+========================================= */
+@import url(http://fonts.googleapis.com/css?family=Karla);
+@import url(http://fonts.googleapis.com/css?family=Space+Mono);
+
+
+
+/* =========================================
+ 2 - Global Styles
+========================================= */
+body {
+    background-color: #f4f4f2;
+    color: #6b6b6b;
+    font-family: 'Karla';
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1 {
+	font-family: 'Space Mono';
+	margin-bottom: 30px;
+	font-size: 35px;
+	color: #6b6b6b;
+	font-weight: 200;
+	letter-spacing: -1px;
+}
+h2{
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 140%;	
+}
+h3{
+	font size: 199px;
+	text-align: center;
+}
+p{
+	font-weight: 400;
+	text-align: center;
+}
+.title a{
+	color: #6b6b6b;
+	text-decoration: none;
+}
+strong {
+	font-weight: 400;
+}
+img {
+}
+.bigimage{
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+.profilephoto{
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+ul {
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+.navbar-default{
+	background-color: #f4f4f2;
+	border: 0;
+	margin-top: -60px;
+}
+.highlighted{
+	text-decoration: none;
+	border-bottom: 0px solid #ffeda5; box-shadow: inset 0 -8px 0 #ffeda5; color: inherit;
+}
+.title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.imagehomepage{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.button{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.btn{
+	position: relative;
+	width: 150px;
+	  height: 60px;
+	  padding-top: 15px;
+	  font-size: 18px;
+	  color: white;
+	  text-align: center;
+	  background: #f1c40f;
+	  border: 0;
+	  border-bottom: 2px solid #e2b607;
+	  cursor: pointer;
+	  -webkit-box-shadow: inset 0 -2px #e2b607;
+	  box-shadow: inset 0 -2px #e2b607;
+}
+.paragraph{
+	margin: 10px;
+}
+.paragraph:first-letter{
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 15px;
+}
+.video{
+	padding-top: 50px;
+}
+.footer{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
