@@ -64,9 +64,6 @@
                         <a class="page-scroll" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="about.html">About</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="work.html">Work</a>
                     </li>
                 </ul>
@@ -81,9 +78,7 @@
             <div class="row">
                 <div class="title">
                     <h1>Anthony Heinrich</h1>
-                    <h2>I'm a Ottawa-based artist and Product Manager. As an artist, I use pens and watercolours to uncover the rich details that make up the urban landscapes in which we live.
-
-                    You can learn more about some of my previous product work on <a href="https://medium.com/ahportfolio"><span class="highlighted">my portfolio on Medium</span></a>, and check out my latest drawing below.<br><br>If you're curious, you can also read more about <a href="https://medium.com/ahportfolio/shopify-store-anthonyheinrich-com-bf18183e95e5"><span class="highlighted">why I build this website</span></a>.</h2>
+                    <h2>I'm an Ottawa-based artist & Product Manager at <span class="highlighted"><a href="https://shopify.com">Shopify</span>. <br><br>You can learn more about some of my previous product work on <a href="https://medium.com/ahportfolio"><span class="highlighted">Medium</span></a>, and check out my latest drawing below. If you're curious, you can also read more about <a href="https://medium.com/ahportfolio/shopify-store-anthonyheinrich-com-bf18183e95e5"><span class="highlighted">why I build this website</span></a>.</h2>
                 </div>
             </div>
             <div class="row">
@@ -94,42 +89,42 @@
             </div>
             <div class="row" align="center">
             <div id='product-component-7816aa5c3b5'></div>
-<script type="text/javascript">
-/*<![CDATA[*/
+<div id='product-component-bb5b5169007'></div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
 
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
 
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
 
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'anthony-heinrich-art.myshopify.com',
-      apiKey: '78dde99ce39ec8f5000a948843d0e79a',
-      appId: '6',
-    });
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'anthony-heinrich-art.myshopify.com',
+          storefrontAccessToken: '78dde99ce39ec8f5000a948843d0e79a',
+        });
 
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [10053247244],
-        node: document.getElementById('product-component-7816aa5c3b5'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [10053247244],
+            node: document.getElementById('product-component-bb5b5169007'),
+            moneyFormat: '%24%7B%7Bamount%7D%7D',
+            options: {
   "product": {
     "buttonDestination": "modal",
     "variantId": "all",
@@ -244,12 +239,12 @@
     }
   }
 }
-      });
-    });
-  }
-})();
-/*]]>*/
-</script>  
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>  
             </div>
             <div class="row video">
                 <div class="embed-responsive embed-responsive-16by9">
